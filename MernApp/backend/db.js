@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-// const url="mongodb+srv://kavyansh-11:kavyansh_1234@cluster0.ntqqpj2.mongodb.net/gofoodmern?retryWrites=true&w=majority";
+
 const url="mongodb://kavyansh-11:kavyansh_1234@ac-1dzl6pu-shard-00-00.ntqqpj2.mongodb.net:27017,ac-1dzl6pu-shard-00-01.ntqqpj2.mongodb.net:27017,ac-1dzl6pu-shard-00-02.ntqqpj2.mongodb.net:27017/gofoodmern?ssl=true&replicaSet=atlas-34766q-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 const mongoDB= async() => {
